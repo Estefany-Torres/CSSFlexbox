@@ -25,13 +25,13 @@ body {
 
     justify-content: space-between;
 
-    align-items: center;
+    /*align-items: center;*/
 
-    /*align-content: space-around;*/
+    align-content: center;
 }
 
 .caja {
-    width: 100px;
+    width: 150px;
     height: 100px;
     background: #f79256;
     text-align: center;
@@ -39,4 +39,12 @@ body {
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    /*order:1;*/
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.dos {
+    align-self: stretch;
+    height: auto;
 }
